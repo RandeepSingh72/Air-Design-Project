@@ -1,0 +1,23 @@
+.hero-img{
+    height: 100vh;
+}
+.hero-img {
+    background-image: url(../pics/18291465-diversity-group-of-people-lifestyle-communication-concept-m-2\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+   }
+.integer{
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+}
+.cstm-bg{
+    background-color:#DE5F4C;
+    transition: all 0.5s;
+}
+.cstm-bg:hover{
+    background-color: #C6A584;
+}
+.cp{
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+h2 a{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.733);
+    text-decoration: none;
+}
+h2 a:hover{
+    color: #CFBCA6;
+}
+.blog-quote{
+    background-color: #F8F8F8;
+}
+cite{
+    color: rgb(160, 157, 157);
+}
+.cite-line{
+    position: relative;
+    padding-right: 2.5rem;
+}
+.cite-line::before{
+    position: absolute;
+    content: '';
+    height: 1.2px;
+    width: 30px;
+    top: 50%;
+    background-color: currentColor;
+    left: 0;
+}
+.togglle{
+        border: 0;
+        line-height: 1;
+        text-align: center;
+        outline: 0;
+        padding: 0;
+        cursor: pointer;
+        max-width: 50px;
+}
+.in-paper{
+    letter-spacing: .5px;
+}
+.audio{
+    background-color: #eee;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.second-col{
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+.second-col-p{
+    margin-top: 2rem;
+}
+aside{
+    margin-top: 5rem;
+    padding-top: 3rem;
+}
+@media screen and (max-width: 480px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .second-col{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .second-col-p{
+        margin-top: 0;
+    }
+    aside{
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
